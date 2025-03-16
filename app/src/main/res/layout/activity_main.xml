@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_document"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CV Builder"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnProfilePicture"
+            style="@style/CustomButton"
+            android:text="Profile Picture" />
+
+        <Button
+            android:id="@+id/btnPersonalDetails"
+            style="@style/CustomButton"
+            android:text="Personal Details" />
+
+        <Button
+            android:id="@+id/btnSummary"
+            style="@style/CustomButton"
+            android:text="Summary" />
+
+        <Button
+            android:id="@+id/btnEducation"
+            style="@style/CustomButton"
+            android:text="Education" />
+
+        <Button
+            android:id="@+id/btnExperience"
+            style="@style/CustomButton"
+            android:text="Experience" />
+
+        <Button
+            android:id="@+id/btnCertifications"
+            style="@style/CustomButton"
+            android:text="Certifications" />
+
+        <Button
+            android:id="@+id/btnReferences"
+            style="@style/CustomButton"
+            android:text="References" />
+
+        <Button
+            android:id="@+id/btnPreview"
+            style="@style/CustomButton"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:text="Preview" />
+
+    </LinearLayout>
+
+</LinearLayout>
